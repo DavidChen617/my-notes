@@ -5,8 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "prestart": "node generate-manifest.mjs",
-    "build": "ng build",
-    "prebuild": "node generate-manifest.mjs",
+    "build": "node generate-manifest.mjs && ng build",
     "watch": "ng build --watch --configuration development"
   },
   "private": true,
