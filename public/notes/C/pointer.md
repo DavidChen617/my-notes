@@ -159,5 +159,3 @@ free(arr);              // 記得釋放記憶體!
 ```
 
 ---
-
-**來源**: [YouTube 影片逐字稿] - "you will never ask about pointers again after watching this video"
