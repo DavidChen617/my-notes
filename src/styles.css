@@ -202,13 +202,6 @@ app-file-tree ol li,
   list-style-position: outside !important;
 }
 
-/* 確保 prose 不影響 sidebar */
 .prose li::marker {
   color: #64748b;
-}
-
-:not(.prose) li::before,
-:not(.prose) li::marker {
-  content: none !important;
-  display: none !important;
 }

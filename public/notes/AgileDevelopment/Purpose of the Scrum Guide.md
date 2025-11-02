@@ -1,42 +1,35 @@
 ## 目錄 (Table of Contents)
 
-### 1. [[#1. Purpose of the Scrum Guide(指南目的)]]
+
+- [1. Purpose of the Scrum Guide (指南目的)](#1-purpose-of-the-scrum-guide-指南目的)
    - 1.1 起源與目的
    - 1.2 Scrum Guide 的角色
    - 1.3 適用範圍
    - 1.4 上下文差異
-
-### 2. [[#2. Scrum Definition（定義）]]
-
-### 3. [[#3. Scrum Theory（理論基礎）]]
-   - [[#3.1 Transparency（透明性）]]
-   - [[#3.2 Inspection（檢視）]]
-   - [[#3.3 Adaptation（調整）]]
-
-### 4. [[#4. Scrum Values（Scrum 五大價值）]]
-
-### 5. [[#5. Scrum Team]]
-   - [[#5.1 Developers]]
-   - [[#5.2 Product Owner（產品負責人）]]
-   - [[#5.3 Scrum Master（Scrum 導師）]]
-
-### 6. [[#6. Scrum Events]]
-   - [[#6.1 The Sprint（短衝）]]
-   - [[#6.2 Sprint Planning（短衝規劃）]]
-   - [[#6.3 Daily Scrum（日常站會）]]
-   - [[#6.4 Sprint Review]]
-   - [[#6.5 Sprint Retrospective（短衝回顧會）]]
-
-### 7. [[#7. Scrum Artifacts]]
-   - [[#7.1 Sprint Backlog（短衝待辦清單）]]
-      - [[#Commitment: Sprint Goal（短衝目標）]]
-   - [[#7.2 Increment]]
-      - [[#Commitment: Definition of Done（完成定義）]]
-
-### 8. [[#8. End Note]]
+- [2. Scrum Definition（定義）](#2-scrum-definition-定義)
+- [3. Scrum Theory（理論基礎）](#3-scrum-theory-理論基礎)
+   - [3.1 Transparency（透明性）](#3-1-transparency-透明性)
+   - [3.2 Inspection（檢視）](#3-2-inspection-檢視)
+   - [3.3 Adaptation（調整）](#3-3-adaptation-調整)
+- [4. Scrum Values（Scrum 五大價值）](#4-scrum-values-scrum-五大價值)
+- [5. Scrum Team](#5-scrum-team)
+   - [5.1 Developers](#5-1-developers)
+   - [5.2 Product Owner（產品負責人）](#5-2-product-owner-產品負責人)
+   - [5.3 Scrum Master（Scrum 導師）](#5-3-scrum-master-scrum-導師)
+- [6. Scrum Events](#6-scrum-events)
+   - [6.1 The Sprint（短衝）](#6-1-the-sprint-短衝)
+   - [6.2 Sprint Planning（短衝規劃）](#6-2-sprint-planning-短衝規劃)
+   - [6.3 Daily Scrum（日常站會）](#6-3-daily-scrum-日常站會)
+   - [6.4 Sprint Review](#6-4-sprint-review)
+   - [6.5 Sprint Retrospective（短衝回顧會）](#6-5-sprint-retrospective-短衝回顧會)
+- [7. Scrum Artifacts](#7-scrum-artifacts)
+   - [7.1 Sprint Backlog（短衝待辦清單）](#7-1-sprint-backlog-短衝待辦清單)
+      - [Commitment: Sprint Goal（短衝目標）](#commitment-sprint-goal-短衝目標)
+   - [7.2 Increment](#7-2-increment)
+      - [Commitment: Definition of Done（完成定義）](#commitment-definition-of-done-完成定義)
+- [8. End Note](#8-end-note)
 
 ---
-
 
 ### 1. Purpose of the Scrum Guide (指南目的)
 
@@ -75,7 +68,7 @@
     - 具體實務與延伸應用可參考其他資源。
 
 
-
+<a id="definition"></a>
 ### 2. Scrum Definition（定義）
 
 - Scrum 是一種**輕量級框架**，協助人與團隊透過**適應性解法**解決複雜問題、創造價值。
@@ -99,7 +92,7 @@
 
 ---
 
-
+<a id="theory"></a>
 ### 3. Scrum Theory（理論基礎）
 
 - 建立於：
@@ -125,7 +118,7 @@
 
 ---
 
-
+<a id="transparency"></a>
 ### 3.1 Transparency（透明性）
 
 - 工作流程與成果需對**執行者與接收者皆可見**。
@@ -137,6 +130,7 @@
 - 透明性是檢視的前提；**沒有透明性的檢視是誤導與浪費**。
 
 
+<a id="inspection"></a>
 ### 3.2 Inspection（檢視）
 
 - Scrum 工件與達成目標的進度需被**頻繁且嚴謹地檢視**，以偵測偏差或問題。
@@ -150,7 +144,7 @@
 
 ---
 
-
+<a id="adaptation"></a>
 ### 3.3 Adaptation（調整）
 
 - 若流程偏離可接受範圍，或產出不符合期望，**必須立即調整**以減少偏差。
@@ -162,7 +156,7 @@
 
 ---
 
-
+<a id="values"></a>
 ### 4. Scrum Values（Scrum 五大價值）
 
 |值|說明|
@@ -175,6 +169,7 @@
 
 
 
+<a id="team"></a>
 ### 5. Scrum Team
 
 - Scrum 的基本單位是一個 **小型、自組織、跨職能團隊**。
@@ -194,7 +189,7 @@
 
 ---
 
-
+<a id="developers"></a>
 ### 5.1 Developers
 
 - 負責在每個 Sprint 中建立可用 Increment。
@@ -212,7 +207,7 @@
 
 ---
 
-
+<a id="product-owner"></a>
 ### 5.2 Product Owner（產品負責人）
 
 - 對**產品價值最大化**負最終責任。
@@ -237,7 +232,7 @@
 
 ---
 
-
+<a id="scrum-master"></a>
 ### 5.3 Scrum Master（Scrum 導師）
 
 - 負責在組織內**建立並維護 Scrum 實踐**。
@@ -281,6 +276,7 @@
 
 
 
+<a id="events"></a>
 ### 6. Scrum Events
 
 - **Sprint 是所有事件的容器**。
@@ -294,7 +290,7 @@
 
 ---
 
-
+<a id="sprint"></a>
 ### 6.1 The Sprint（短衝）
 
 - Scrum 的**核心節奏（心跳）**，將想法轉化為價值。
@@ -328,7 +324,7 @@
 
 ---
 
-
+<a id="sprint-planning"></a>
 ### 6.2 Sprint Planning（短衝規劃）
 
 - 目的：制定當前 Sprint 的工作計畫。
@@ -350,6 +346,7 @@
 
 
 
+<a id="daily-scrum"></a>
 ### 6.3 Daily Scrum（日常站會）
 
 - 目的：**檢視 Sprint Goal 的進度**並**調整 Sprint Backlog**（未來工作計畫）。
@@ -379,7 +376,7 @@
 
 ---
 
-
+<a id="sprint-review"></a>
 ### 6.4 Sprint Review
 
 - 目的：**檢視 Sprint 成果**並**決定未來方向**。
@@ -405,6 +402,7 @@
     - Sprint 越短，會議時間越短。
 
 
+<a id="sprint-retrospective"></a>
 ### 6.5 Sprint Retrospective（短衝回顧會）
 
 - 目的：**規劃提升品質與效能的方法**。
@@ -434,7 +432,7 @@
 
 ---
 
-
+<a id="artifacts"></a>
 ### 7. Scrum Artifacts
 
 - 工件代表工作或價值，目的在於**最大化透明度**。
@@ -452,6 +450,7 @@
 
 
 
+<a id="sprint-backlog"></a>
 ### 7.1 Sprint Backlog（短衝待辦清單）
 
 - 組成：
@@ -473,7 +472,7 @@
 
 ---
 
-
+<a id="sprint-goal"></a>
 #### Commitment: Sprint Goal（短衝目標）
 
 - 本次 Sprint 的**唯一目標（single objective）**。
@@ -489,7 +488,7 @@
 
 ---
 
-
+<a id="increment"></a>
 ### 7.2 Increment
 
 - 每個 Increment 是**邁向 Product Goal 的具體成果**。
@@ -508,6 +507,7 @@
     才能被視為 Increment 的一部分。
 
 
+<a id="definition-of-done"></a>
 #### Commitment: Definition of Done（完成定義）
 
 - **Definition of Done（DoD）** 是對 Increment（增量）達成產品品質標準後狀態的**正式描述**。
@@ -531,6 +531,7 @@
 - 若多個 Scrum Team 共同開發同一產品，必須**共用並遵守相同的 DoD**。
 
 
+<a id="end-note"></a>
 ### 8. End Note
 
 - **Scrum 是免費的**，本指南即為其完整定義。

@@ -3,10 +3,10 @@ import { RouterOutlet } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { map, Observable } from 'rxjs';
 import { NgIf } from '@angular/common';
-import { MarkdownComponent } from 'ngx-markdown';
 import { SidebarResizeComponent } from './sidebar-resize/sidebar-resize/sidebar-resize.component';
 import { FileTreeComponent } from './file-tree/file-tree.component';
 import { FileNode, FileTreeBuilder, NoteItem } from './models/file-tree.model';
+import { MarkdownViewerComponent } from './markdown-viewer/markdown-viewer.component';
 
 type NotePack = {
   items: NoteItem[];
@@ -17,9 +17,9 @@ type NotePack = {
   imports: [
     RouterOutlet,
     NgIf,
-    MarkdownComponent,
     SidebarResizeComponent,
-    FileTreeComponent
+    FileTreeComponent,
+    MarkdownViewerComponent
   ],
   template: `
     <sidebar-resize>
@@ -34,7 +34,7 @@ type NotePack = {
           <p class="text-dark-text-secondary text-lg">選擇左側檔案開始閱讀</p>
         </div>
         <article *ngIf="markdownPath" class="prose prose-lg max-w-none">
-          <markdown [src]="markdownPath"></markdown>
+          <app-markdown-viewer [src]="markdownPath"></app-markdown-viewer>
         </article>
         <router-outlet />
       </div>
@@ -59,13 +59,13 @@ export class AppComponent implements OnInit {
       // 從 localStorage 讀取上次選中的檔案並自動載入
       const savedPath = localStorage.getItem(this.STORAGE_KEY);
       if (savedPath) {
-        this.markdownPath = savedPath;
+        this.updateMarkdownPath(savedPath, false);
       }
     });
   }
 
   public onFileSelected(node: FileNode): void {
-    this.markdownPath = node.path;
+    this.updateMarkdownPath(node.path, true);
   }
 
   private getManifest(): Observable<NoteItem[]> {
@@ -74,5 +74,13 @@ export class AppComponent implements OnInit {
 
   private getNotePack(): Observable<NotePack> {
     return this.http.get(this.MANIFEST_URL) as Observable<NotePack>;
+  }
+
+  private updateMarkdownPath(path: string, persist: boolean): void {
+    this.markdownPath = path;
+
+    if (persist) {
+      localStorage.setItem(this.STORAGE_KEY, path);
+    }
   }
 }
