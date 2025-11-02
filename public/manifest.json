@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "name": "pointer.md",
+      "parentPath": "notes/C"
+    },
+    {
+      "name": "test2.md",
+      "parentPath": "notes/notes2"
+    },
+    {
+      "name": "test3.md",
+      "parentPath": "notes/notes2"
+    },
+    {
+      "name": "test.md",
+      "parentPath": "notes"
+    }
+  ]
+}
